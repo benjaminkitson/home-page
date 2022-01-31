@@ -22,7 +22,7 @@ h1 {
 }
 
 .carousel {
-  width: 50%;
+  width: 450px;
   height: 600px;
   border: 1px solid black;
   margin: 30px;
@@ -40,34 +40,28 @@ h1 {
 
 .carousel-image {
   height: 100%;
-  object-fit: contain;
+  width: 100%;
+  object-fit: fill;
   transition: all 1s;
+  position: absolute;
+}
+
+.center {
+  z-index: 1;
+  left: 0
+
+}
+
+.left {
+  left: -450px;
   display: none;
-}
-
-.move-right {
-  transform: translateX(550px);
   transition: all 1s;
 }
 
-.nx {
-  transform: translateX(550px);
+.right {
+  left: 450px;
+  display: none;
   transition: all 1s;
-}
-
-.move-left{
-  transform: translateX(-550px);
-  transition: all 1s;
-}
-
-.pv {
-  transform: translateX(-550px);
-  transition: all 1s;
-}
-
-
-.visible {
-  display: block;
 }
 
 .change {
@@ -82,8 +76,10 @@ h1 {
 
 .next {
   right: 0;
+  z-index: 2;
 }
 
 .prev {
   left: 0;
+  z-index: 2;
 }
