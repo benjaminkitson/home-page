@@ -41,8 +41,8 @@ h1 {
 .carousel-image {
   height: 100%;
   object-fit: contain;
-  display: none;
   transition: all 1s;
+  display: none;
 }
 
 .move-right {
@@ -50,8 +50,19 @@ h1 {
   transition: all 1s;
 }
 
+.nx {
+  transform: translateX(550px);
+  transition: all 1s;
+}
+
 .move-left{
   transform: translateX(-550px);
+  transition: all 1s;
+}
+
+.pv {
+  transform: translateX(-550px);
+  transition: all 1s;
 }
 
 
