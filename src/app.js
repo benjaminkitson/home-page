@@ -11,7 +11,7 @@ function locate(relativePath) {
 
 app.set('view engine', 'hbs')
 app.set('views', locate('../templates/views'))
-hbs.registerPartials('views', locate('../templates/partials'))
+hbs.registerPartials(locate('../templates/partials'))
 
 app.use(express.static(
   locate('../public')
@@ -19,6 +19,10 @@ app.use(express.static(
 
 app.get('', (req, res) => {
   res.render('index.hbs')
+})
+
+app.get('/shenanigans', (req, res) => {
+  res.render('shenanigans.hbs')
 })
 
 app.get('*', (req, res) => {
