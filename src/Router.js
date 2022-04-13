@@ -1,0 +1,19 @@
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from "./components/about/About";
+import Home from "./components/home/Home";
+import Navbar from "./components/shared/Navbar";
+
+const Router = () => (
+  <BrowserRouter>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+    </div>
+  </BrowserRouter>
+);
+
+export default Router;
