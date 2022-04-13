@@ -5,9 +5,25 @@
   margin-bottom: 20px;
   opacity: 0.5;
   transition: opacity 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar:hover {
   opacity: 1;
   transition: opacity 0.5s;
+}
+
+.navbar__link {
+  color: rgb(37, 37, 37);
+  font-size: 30px;
+  text-decoration: none;
+  padding: 20px;
+  width: 200px;
+}
+
+.current-page {
+  color: black;
+  font-weight: 600;
 }
