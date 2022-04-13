@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import projects from '../../projects';
+import projects from '../../data/projects';
 
 console.log(projects)
 
