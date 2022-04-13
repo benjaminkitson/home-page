@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "scripts": {
+      "server": "live-server public/",
+      "build-prod": "webpack --env production --mode=production",
+      "build-dev": "webpack --env development --mode=development",
+      "dev-server": "webpack-dev-server"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benjaminkitson/home-page.git"
