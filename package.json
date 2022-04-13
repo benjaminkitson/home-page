@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-      "server": "live-server public/",
-      "build-prod": "webpack --env production --mode=production",
-      "build-dev": "webpack --env development --mode=development",
-      "dev-server": "webpack-dev-server"
-    },
+  "scripts": {
+    "server": "live-server public/",
+    "build-prod": "webpack --env production --mode=production",
+    "build-dev": "webpack --env development --mode=development",
+    "dev-server": "webpack-dev-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benjaminkitson/home-page.git"
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0"
   }
 }

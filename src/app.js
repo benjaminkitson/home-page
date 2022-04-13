@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from './routers/Router';
+import Router from './Router';
 import './styles/styles.scss';
 
 const app = document.getElementById('app');
 
-const content = <Router />;
+const jsx = <Router />;
 
 ReactDOM.render(jsx, app);
