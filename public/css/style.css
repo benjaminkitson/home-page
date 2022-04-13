@@ -23,7 +23,7 @@ body {
   transition: opacity 0.5s;
 }
 
-.content {
+.page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +38,7 @@ h1 {
   align-items: center;
 }
 
-.heading {
+.page__heading {
   font-size: 30px;
   width: 100%;
   height: 50px;
@@ -62,7 +62,7 @@ h1 {
   transition: opacity 0.5s;
 }
 
-.cards {
+.cards__card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -90,14 +90,14 @@ h1 {
   transition: opacity 0.3s;
 }
 
-.preview-image {
+.card__preview-image {
   width: 100%;
   height: 70%;
   background-color: yellow;
   border-radius: 20px 20px 0 0;
 }
 
-.card-details {
+.card__details {
   height: 30%;
   width: 100%;
   display: flex;
