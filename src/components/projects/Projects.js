@@ -4,11 +4,11 @@ import projects from '../../projects';
 
 console.log(projects)
 
-function Home() {
+function Projects() {
   return (
     <div className="page">
       <h1 className="page__heading">
-        Home
+        Projects
       </h1>
       <div className="cards">
         {projects.map((project) => (
@@ -19,4 +19,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default Projects;

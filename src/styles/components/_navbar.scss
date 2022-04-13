@@ -16,14 +16,17 @@
 }
 
 .navbar__link {
+  text-align: center;
   color: rgb(37, 37, 37);
   font-size: 30px;
   text-decoration: none;
   padding: 20px;
-  width: 200px;
+  width: 300px;
+  transition: font-size 0.3s;
 }
 
 .current-page {
   color: black;
-  font-weight: 600;
+  font-size: 40px;
+  transition: font-size 0.3s;
 }

@@ -6,6 +6,9 @@ function About() {
       <h1 className="page__heading">
         About me
       </h1>
+      <div>
+        <img className="avatar" src="./images/me.jpeg" />
+      </div>
     </div>
   )
 }
