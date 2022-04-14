@@ -6,5 +6,19 @@
   height: 100%;
   width: 70%;
   background-color: $card-white;
-  border-radius: $theme-radius
+  border-radius: $theme-radius;
+  padding: 50px 70px;
+}
+
+.description {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description__text {
+  margin: 20px 0;
 }

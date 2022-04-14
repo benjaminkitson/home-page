@@ -10,7 +10,7 @@ function LeftContainer() {
       <ul className="about-page__technologies">
         {aboutMe.technologies.map(t => <li className="technology__item">{t}</li>)}
       </ul>
-      <a href={aboutMe.cv} download> Click to download</a>
+      <a href={aboutMe.cv} download><button>Download my CV!</button></a>
     </div>
   )
 }

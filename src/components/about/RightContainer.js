@@ -4,9 +4,11 @@ import aboutMe from '../../data/aboutMe';
 function RightContainer() {
   return (
     <div className="right-container">
-      <p>{aboutMe.description1}</p>
-      <p>{aboutMe.description2}</p>
-      <p>{aboutMe.description3}</p>
+      <div className="description">
+        <p className="description__text">{aboutMe.description1}</p>
+        <p className="description__text">{aboutMe.description2}</p>
+        <p className="description__text">{aboutMe.description3}</p>
+      </div>
     </div>
   )
 }
