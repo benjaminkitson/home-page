@@ -1,9 +1,26 @@
 .left-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 30%;
-  // background-color: ;
+  width: 25%;
+  background-color: $card-white;
+  border-radius: $theme-radius;
+  padding: 50px 70px;
 }
+
+.avatar {
+  border-radius: 999em;
+  width: 100%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.about-page__technologies {
+  list-style-type: none;
+  align-self: start;
+}
+
+// .technology__item {
+
+// }

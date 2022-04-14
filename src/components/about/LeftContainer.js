@@ -7,11 +7,9 @@ function LeftContainer() {
       <div>
         <img className="avatar" src="./images/me.jpeg" />
       </div>
-      <div>
-        <ul>
-          {aboutMe.technologies.map(t => <li className="about__technology">{t}</li>)}
-        </ul>
-      </div>
+      <ul className="about-page__technologies">
+        {aboutMe.technologies.map(t => <li className="technology__item">{t}</li>)}
+      </ul>
       <a href={aboutMe.cv} download> Click to download</a>
     </div>
   )

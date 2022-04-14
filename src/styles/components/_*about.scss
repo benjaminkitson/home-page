@@ -1,15 +1,15 @@
 .about-page {
+  padding: 40px 80px;
   width: 100vw;
-  height: 90vh;
+  height: calc(90vh);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .avatar {
   border-radius: 999em;
-  height: 300px;
-  width: 300px;
+  width: 100%;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
 }
 
