@@ -17,8 +17,11 @@
 }
 
 .about-page__technologies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
   list-style-type: none;
-  align-self: start;
+  text-align: center;
 }
 
 // .technology__item {
