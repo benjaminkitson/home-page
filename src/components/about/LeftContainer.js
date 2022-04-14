@@ -1,12 +1,9 @@
 import React from 'react';
 import aboutMe from '../../data/aboutMe';
 
-function About() {
+function LeftContainer() {
   return (
-    <div className="page">
-      <h1 className="page__heading">
-        About me
-      </h1>
+    <div className="left-container">
       <div>
         <img className="avatar" src="./images/me.jpeg" />
       </div>
@@ -20,4 +17,4 @@ function About() {
   )
 }
 
-export default About;
+export default LeftContainer;

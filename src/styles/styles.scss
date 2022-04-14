@@ -1,7 +1,10 @@
+@import './base/settings';
 @import './base/base';
-@import './components/about';
-@import './components/projects';
+@import './components/*about';
+@import './components/*projects';
 @import './components/navbar';
+@import './components/leftcontainer';
+@import './components/rightcontainer';
 
 #webpack-dev-server-client-overlay {
   display: none;

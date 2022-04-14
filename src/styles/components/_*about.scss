@@ -1,10 +1,17 @@
+.about-page {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .avatar {
   border-radius: 999em;
   height: 300px;
   width: 300px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
 }
-
 
 .about__technology {
   list-style-type: none;
